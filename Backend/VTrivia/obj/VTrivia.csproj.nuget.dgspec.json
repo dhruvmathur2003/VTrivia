@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\.NET Core MVC\\VTrivia\\VTrivia.csproj": {}
+    "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\.NET Core MVC\\VTrivia\\VTrivia.csproj": {
+    "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\.NET Core MVC\\VTrivia\\VTrivia.csproj",
+        "projectUniqueName": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
         "projectName": "VTrivia",
-        "projectPath": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\.NET Core MVC\\VTrivia\\VTrivia.csproj",
+        "projectPath": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
         "packagesPath": "C:\\Users\\dhruv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\.NET Core MVC\\VTrivia\\obj\\",
+        "outputPath": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dhruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"

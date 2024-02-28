@@ -10,6 +10,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:3000") // Update with your React app URL
+                   .AllowAnyHeader()
+                   .AllowAnyMethod();
+        });
+});
 builder.Services.AddSwaggerGen(option =>
 {
     option.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
@@ -37,7 +47,7 @@ if (app.Environment.IsDevelopment())
 }
 app.MapIdentityApi<IdentityUser>();
 app.UseHttpsRedirection();
-
+app.UseCors("AllowReactApp");
 app.UseAuthorization();
 
 app.MapControllers();

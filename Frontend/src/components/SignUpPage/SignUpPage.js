@@ -5,23 +5,26 @@ import axios from "axios";
 const SignUpPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [username, setUsername] = useState("");
+  // const [username, setUsername] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .post("", {
-        username,
-        email,
-        password
-      })
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  };
+        .post("https://localhost:7089/register", {
+             email,
+             password
+        }, {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then((response) => {
+            console.log(response);
+        })
+        .catch((error) => {
+            console.error(error);
+        });
+};
   return (
     <>
       <Navbar />
@@ -33,7 +36,7 @@ const SignUpPage = () => {
               <h1 className="text-center text-2xl font-semibold text-white">
                 Register
               </h1>
-              <div>
+              {/* <div>
                 <label
                   htmlFor="email"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -49,7 +52,7 @@ const SignUpPage = () => {
                   required=""
                   onChange={(e) => setUsername(e.target.value)}
                 />
-              </div>
+              </div> */}
               <div>
                 <label
                   htmlFor="email"
