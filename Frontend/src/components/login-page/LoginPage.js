@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import "./LoginPage.css";
 import Navbar from "../Navbar/Navbar";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -23,6 +25,7 @@ const LoginPage = () => {
       .then((response) => {
         console.log("DONE");
         console.log(response);
+        navigate('/Dashboard');
       })
       .catch((error) => {
         console.log(error);

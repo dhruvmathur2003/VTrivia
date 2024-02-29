@@ -5282,27 +5282,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dhruv\\.nuget\\packages\\": {}
+    "/Users/rage_fr3ak_007/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
+      "projectUniqueName": "/Users/rage_fr3ak_007/Desktop/VTrivia/Backend/VTrivia/VTrivia.csproj",
       "projectName": "VTrivia",
-      "projectPath": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
-      "packagesPath": "C:\\Users\\dhruv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\obj\\",
+      "projectPath": "/Users/rage_fr3ak_007/Desktop/VTrivia/Backend/VTrivia/VTrivia.csproj",
+      "packagesPath": "/Users/rage_fr3ak_007/.nuget/packages/",
+      "outputPath": "/Users/rage_fr3ak_007/Desktop/VTrivia/Backend/VTrivia/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dhruv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/rage_fr3ak_007/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5406,7 +5403,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

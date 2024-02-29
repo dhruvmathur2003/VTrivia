@@ -24,10 +24,9 @@ const ForgetPassword = () => {
       .then((response) => {
         console.log(response);
         alert("A mail has been to your email id");
-      })
-      .then((response) =>
-      {
-        console.log(response);
+        setTimeout(() => {
+          
+        }, 2000);
         navigate('/ResetPassword');
       })
       .catch((error) => {
