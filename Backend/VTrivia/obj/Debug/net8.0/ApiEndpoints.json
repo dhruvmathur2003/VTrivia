@@ -1,7 +1,7 @@
 [
   {
-    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__1\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
-    "Method": "\u003CMapIdentityApi\u003Eb__1_3",
+    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensionsCust\u002B\u003C\u003Ec__1\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+    "Method": "\u003CMapIdentityApiCust\u003Eb__1_3",
     "RelativePath": "confirmEmail",
     "HttpMethod": "GET",
     "IsController": false,
@@ -10,12 +10,12 @@
       {
         "Name": "userId",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "code",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "changedEmail",
@@ -32,8 +32,8 @@
     ]
   },
   {
-    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
-    "Method": "\u003CMapIdentityApi\u003Eb__6",
+    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensionsCust\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+    "Method": "\u003CMapIdentityApiCust\u003Eb__6",
     "RelativePath": "forgotPassword",
     "HttpMethod": "POST",
     "IsController": false,
@@ -42,7 +42,7 @@
       {
         "Name": "resetRequest",
         "Type": "Microsoft.AspNetCore.Identity.Data.ForgotPasswordRequest",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -77,8 +77,8 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__1\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
-    "Method": "\u003CMapIdentityApi\u003Eb__1_1",
+    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensionsCust\u002B\u003C\u003Ec__1\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+    "Method": "\u003CMapIdentityApiCust\u003Eb__1_1",
     "RelativePath": "login",
     "HttpMethod": "POST",
     "IsController": false,
@@ -87,7 +87,7 @@
       {
         "Name": "login",
         "Type": "Microsoft.AspNetCore.Identity.Data.LoginRequest",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "useCookies",
@@ -111,8 +111,8 @@
     ]
   },
   {
-    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__1\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
-    "Method": "\u003CMapIdentityApi\u003Eb__1_8",
+    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensionsCust\u002B\u003C\u003Ec__1\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+    "Method": "\u003CMapIdentityApiCust\u003Eb__1_8",
     "RelativePath": "manage/2fa",
     "HttpMethod": "POST",
     "IsController": false,
@@ -121,7 +121,7 @@
       {
         "Name": "tfaRequest",
         "Type": "Microsoft.AspNetCore.Identity.Data.TwoFactorRequest",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -147,8 +147,8 @@
     ]
   },
   {
-    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__1\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
-    "Method": "\u003CMapIdentityApi\u003Eb__1_9",
+    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensionsCust\u002B\u003C\u003Ec__1\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+    "Method": "\u003CMapIdentityApiCust\u003Eb__1_9",
     "RelativePath": "manage/info",
     "HttpMethod": "GET",
     "IsController": false,
@@ -177,8 +177,8 @@
     ]
   },
   {
-    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
-    "Method": "\u003CMapIdentityApi\u003Eb__10",
+    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensionsCust\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+    "Method": "\u003CMapIdentityApiCust\u003Eb__10",
     "RelativePath": "manage/info",
     "HttpMethod": "POST",
     "IsController": false,
@@ -187,7 +187,7 @@
       {
         "Name": "infoRequest",
         "Type": "Microsoft.AspNetCore.Identity.Data.InfoRequest",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -213,8 +213,8 @@
     ]
   },
   {
-    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
-    "Method": "\u003CMapIdentityApi\u003Eb__2",
+    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensionsCust\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+    "Method": "\u003CMapIdentityApiCust\u003Eb__2",
     "RelativePath": "refresh",
     "HttpMethod": "POST",
     "IsController": false,
@@ -223,7 +223,7 @@
       {
         "Name": "refreshRequest",
         "Type": "Microsoft.AspNetCore.Identity.Data.RefreshRequest",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -237,8 +237,8 @@
     ]
   },
   {
-    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
-    "Method": "\u003CMapIdentityApi\u003Eb__0",
+    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensionsCust\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+    "Method": "\u003CMapIdentityApiCust\u003Eb__0",
     "RelativePath": "register",
     "HttpMethod": "POST",
     "IsController": false,
@@ -247,7 +247,7 @@
       {
         "Name": "registration",
         "Type": "Microsoft.AspNetCore.Identity.Data.RegisterRequest",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -266,8 +266,8 @@
     ]
   },
   {
-    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
-    "Method": "\u003CMapIdentityApi\u003Eb__5",
+    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensionsCust\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+    "Method": "\u003CMapIdentityApiCust\u003Eb__5",
     "RelativePath": "resendConfirmationEmail",
     "HttpMethod": "POST",
     "IsController": false,
@@ -276,7 +276,7 @@
       {
         "Name": "resendRequest",
         "Type": "Microsoft.AspNetCore.Identity.Data.ResendConfirmationEmailRequest",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -288,8 +288,8 @@
     ]
   },
   {
-    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__1\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
-    "Method": "\u003CMapIdentityApi\u003Eb__1_7",
+    "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensionsCust\u002B\u003C\u003Ec__1\u00601[[Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Identity.Stores, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+    "Method": "\u003CMapIdentityApiCust\u003Eb__1_7",
     "RelativePath": "resetPassword",
     "HttpMethod": "POST",
     "IsController": false,
@@ -298,7 +298,7 @@
       {
         "Name": "resetRequest",
         "Type": "Microsoft.AspNetCore.Identity.Data.ResetPasswordRequest",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [

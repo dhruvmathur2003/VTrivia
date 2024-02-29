@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
+using VTrivia;
 using VTrivia.Data;
 using VTrivia.Repository;
 using VTrivia.Repository.IRepository;
@@ -32,7 +34,11 @@ builder.Services.AddSwaggerGen(option =>
     });
     option.OperationFilter<SecurityRequirementsOperationFilter>();
 });
-
+//builder.Services.Configure<IdentityOptions>(options =>
+//{
+//    options.SignIn.RequireConfirmedEmail = true;
+//});
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddAuthorization();
 builder.Services.AddScoped<IGroupRepository, GroupRepository>();
@@ -48,7 +54,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.MapIdentityApi<IdentityUser>();
+app.MapIdentityApiCust<IdentityUser>();
 app.UseHttpsRedirection();
 app.UseCors("AllowReactApp");
 app.UseAuthorization();

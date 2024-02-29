@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Migrations\\20240229065406_AddTimeStamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240229065406_AddTimeStamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\model\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:model\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -23,20 +19,24 @@
       "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:vtrivia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\repository\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:repository\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\model\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:model\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\repository\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:repository\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\repository\\irepository\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,46 +62,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240229065406_AddTimeStamp.cs",
-              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Migrations\\20240229065406_AddTimeStamp.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240229065406_AddTimeStamp.cs",
-              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Migrations\\20240229065406_AddTimeStamp.cs",
-              "RelativeToolTip": "Migrations\\20240229065406_AddTimeStamp.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\EmailSender.cs",
+              "RelativeDocumentMoniker": "EmailSender.cs",
+              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\EmailSender.cs",
+              "RelativeToolTip": "EmailSender.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T06:54:06.828Z",
+              "WhenOpened": "2024-02-29T07:56:19.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VTrivia",
+              "DocumentIndex": 3,
+              "Title": "VTrivia.csproj",
               "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
               "RelativeDocumentMoniker": "VTrivia.csproj",
               "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
               "RelativeToolTip": "VTrivia.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-02-28T18:14:58.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Group.cs",
               "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Model\\Group.cs",
               "RelativeDocumentMoniker": "Model\\Group.cs",
               "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Model\\Group.cs",
               "RelativeToolTip": "Model\\Group.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T09:35:12.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:55:28.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Model\\AppUser.cs",
               "RelativeDocumentMoniker": "Model\\AppUser.cs",
@@ -114,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -127,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -140,20 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAACUAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T17:55:28.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "GroupController.cs",
               "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Controllers\\GroupController.cs",
               "RelativeDocumentMoniker": "Controllers\\GroupController.cs",
@@ -161,12 +161,11 @@
               "RelativeToolTip": "Controllers\\GroupController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T09:47:18.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-28T09:47:18.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "GroupRepository.cs",
               "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Repository\\GroupRepository.cs",
               "RelativeDocumentMoniker": "Repository\\GroupRepository.cs",
@@ -174,8 +173,7 @@
               "RelativeToolTip": "Repository\\GroupRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T18:13:32.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-28T18:13:32.477Z"
             },
             {
               "$type": "Document",
@@ -187,8 +185,7 @@
               "RelativeToolTip": "Repository\\IRepository\\IGroupRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T18:11:55.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-28T18:11:55.203Z"
             },
             {
               "$type": "Document",
@@ -200,8 +197,7 @@
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAwBYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T18:16:24.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-27T18:16:24.808Z"
             }
           ]
         }

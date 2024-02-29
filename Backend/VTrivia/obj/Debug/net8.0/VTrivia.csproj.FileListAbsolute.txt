@@ -316,3 +316,6 @@ C:\Users\dhruv\Documents\.NetDevelopment\VTrivia\Backend\VTrivia\bin\Debug\net8.
 C:\Users\dhruv\Documents\.NetDevelopment\VTrivia\Backend\VTrivia\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\dhruv\Documents\.NetDevelopment\VTrivia\Backend\VTrivia\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\dhruv\Documents\.NetDevelopment\VTrivia\Backend\VTrivia\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\dhruv\Documents\.NetDevelopment\VTrivia\Backend\VTrivia\bin\Debug\net8.0\VTrivia.staticwebassets.runtime.json
+C:\Users\dhruv\Documents\.NetDevelopment\VTrivia\Backend\VTrivia\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\dhruv\Documents\.NetDevelopment\VTrivia\Backend\VTrivia\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
