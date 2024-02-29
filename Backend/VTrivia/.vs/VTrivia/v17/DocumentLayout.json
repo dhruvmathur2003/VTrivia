@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\model\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:model\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\vtrivia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:vtrivia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Migrations\\20240229065406_AddTimeStamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240229065406_AddTimeStamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Migrations\\20240228094145_AddAppUserNGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240228094145_AddAppUserNGroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\model\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:model\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\vtrivia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:vtrivia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\repository\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:repository\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\repository\\irepository\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:repository\\irepository\\igrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|c:\\users\\dhruv\\documents\\.netdevelopment\\vtrivia\\backend\\vtrivia\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B836DC8-D198-432C-8CE5-88A901E9D92C}|VTrivia.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,98 +62,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240229065406_AddTimeStamp.cs",
+              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Migrations\\20240229065406_AddTimeStamp.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240229065406_AddTimeStamp.cs",
+              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Migrations\\20240229065406_AddTimeStamp.cs",
+              "RelativeToolTip": "Migrations\\20240229065406_AddTimeStamp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T06:54:06.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GroupController.cs",
-              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Controllers\\GroupController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GroupController.cs",
-              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Controllers\\GroupController.cs",
-              "RelativeToolTip": "Controllers\\GroupController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T09:47:18.743Z",
+              "Title": "VTrivia",
+              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
+              "RelativeDocumentMoniker": "VTrivia.csproj",
+              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
+              "RelativeToolTip": "VTrivia.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-28T18:14:58.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240228094145_AddAppUserNGroup.cs",
-              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Migrations\\20240228094145_AddAppUserNGroup.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240228094145_AddAppUserNGroup.cs",
-              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Migrations\\20240228094145_AddAppUserNGroup.cs",
-              "RelativeToolTip": "Migrations\\20240228094145_AddAppUserNGroup.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T09:41:46.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Group.cs",
               "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Model\\Group.cs",
               "RelativeDocumentMoniker": "Model\\Group.cs",
               "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Model\\Group.cs",
               "RelativeToolTip": "Model\\Group.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T09:35:12.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VTrivia.csproj",
-              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
-              "RelativeDocumentMoniker": "VTrivia.csproj",
-              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
-              "RelativeToolTip": "VTrivia.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-28T08:40:42.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T18:16:24.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADEAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T17:55:28.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Model\\AppUser.cs",
               "RelativeDocumentMoniker": "Model\\AppUser.cs",
               "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Model\\AppUser.cs",
               "RelativeToolTip": "Model\\AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T09:32:00.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -158,15 +127,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-27T17:56:12.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACUAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:55:28.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GroupController.cs",
+              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "Controllers\\GroupController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T09:47:18.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Repository\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\GroupRepository.cs",
+              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Repository\\GroupRepository.cs",
+              "RelativeToolTip": "Repository\\GroupRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T18:13:32.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IGroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Repository\\IRepository\\IGroupRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IRepository\\IGroupRepository.cs",
+              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Repository\\IRepository\\IGroupRepository.cs",
+              "RelativeToolTip": "Repository\\IRepository\\IGroupRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T18:11:55.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\dhruv\\Documents\\.NetDevelopment\\VTrivia\\Backend\\VTrivia\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T18:16:24.808Z",
               "EditorCaption": ""
             }
           ]

@@ -12,6 +12,8 @@ namespace VTrivia.Model
         public string? Description { get; set; }
         
         public string? AdminId { get; set; }
+
+        public DateTime? TiemStamp { get; set; }
         public List<AppUser>? AppUsers { get; set; }
 
     }

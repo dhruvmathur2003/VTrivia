@@ -10,11 +10,18 @@ const LoginPage = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .post("", {
+      .post("https://localhost:7089/login", {
         email,
-        password
-      })
+        password,
+        twoFactorCode: "string",
+        twoFactorRecoveryCode: "string"
+      }, {
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
       .then((response) => {
+        console.log("DONE");
         console.log(response);
       })
       .catch((error) => {
