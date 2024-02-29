@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-// import toast from "react-hot-toast";
 
-const ResetPassword = ({ email }) => {
+const ResetPassword = () => {
   const navigate = useNavigate();
+  const [email, setEmail] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [resetCode, setResetCode] = useState("");
@@ -35,7 +35,7 @@ const ResetPassword = ({ email }) => {
           console.log(error);
         });
     } else {
-      toast.error('passwords did not match');
+      alert('passwords did not match');
       navigate('/HomePage');
     }
   };
@@ -49,6 +49,23 @@ const ResetPassword = ({ email }) => {
               <h1 className="text-center text-2xl font-semibold text-white">
                 Forget Password
               </h1>
+              <div>
+                <label
+                  htmlFor="email"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="FullName@domain.com"
+                  required=""
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
               <div>
                 <label
                   for="password"

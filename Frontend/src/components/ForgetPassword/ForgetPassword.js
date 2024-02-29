@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-// import toast from "react-hot-toast";
 
 const ForgetPassword = () => {
   const navigate = useNavigate();
@@ -11,7 +10,7 @@ const ForgetPassword = () => {
     event.preventDefault();
     axios
       .post(
-        "https://localhost:7089/forgetPassword",
+        "https://localhost:7089/forgotPassword",
         {
           email,
         },
