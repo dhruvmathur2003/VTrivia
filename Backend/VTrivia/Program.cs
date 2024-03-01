@@ -42,6 +42,7 @@ builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddAuthorization();
 builder.Services.AddScoped<IGroupRepository, GroupRepository>();
+builder.Services.AddScoped<IAppUserRepository, AppUserRepository>();
 builder.Services.AddIdentityApiEndpoints<IdentityUser>().AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -57,6 +58,7 @@ if (app.Environment.IsDevelopment())
 app.MapIdentityApiCust<IdentityUser>();
 app.UseHttpsRedirection();
 app.UseCors("AllowReactApp");
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

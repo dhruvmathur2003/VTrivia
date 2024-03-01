@@ -16,5 +16,10 @@ namespace VTrivia.Model
         public DateTime? TiemStamp { get; set; }
         public List<AppUser>? AppUsers { get; set; }
 
+        public Group()
+        {
+            AppUsers = new List<AppUser>();
+        }
+
     }
 }

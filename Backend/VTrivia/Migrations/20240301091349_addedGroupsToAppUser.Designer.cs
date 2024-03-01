@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VTrivia.Data;
 
@@ -11,9 +12,11 @@ using VTrivia.Data;
 namespace VTrivia.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240301091349_addedGroupsToAppUser")]
+    partial class addedGroupsToAppUser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -269,32 +272,6 @@ namespace VTrivia.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Groups");
-                });
-
-            modelBuilder.Entity("VTrivia.Model.Quiz", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int?>("groupId")
-                        .IsRequired()
-                        .HasColumnType("int");
-
-                    b.Property<TimeSpan>("quizDuration")
-                        .HasColumnType("time");
-
-                    b.Property<DateTime>("startTimeStamp")
-                        .HasColumnType("datetime2");
-
-                    b.Property<TimeSpan>("timeWindow")
-                        .HasColumnType("time");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Quizs");
                 });
 
             modelBuilder.Entity("VTrivia.Model.AppUser", b =>
