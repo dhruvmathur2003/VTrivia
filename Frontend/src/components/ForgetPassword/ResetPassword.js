@@ -37,7 +37,8 @@ const ResetPassword = () => {
         });
     } else {
       toast.error('passwords did not match');
-      navigate('/HomePage');
+      
+      
     }
   };
   return (
