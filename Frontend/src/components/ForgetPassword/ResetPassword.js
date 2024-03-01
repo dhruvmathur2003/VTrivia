@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import {toast} from 'react-hot-toast'
+import {toast} from 'react-hot-toast';
 
 const ResetPassword = () => {
   const navigate = useNavigate();
@@ -37,8 +37,6 @@ const ResetPassword = () => {
         });
     } else {
       toast.error('passwords did not match');
-      
-      
     }
   };
   return (
@@ -49,7 +47,7 @@ const ResetPassword = () => {
           <div className="bg-blue-500 px-10 py-8 rounded-xl w-screen shadow-md max-w-sm">
             <div className="space-y-4">
               <h1 className="text-center text-2xl font-semibold text-white">
-                Forget Password
+                Reset Password
               </h1>
               <div>
                 <label
@@ -66,6 +64,7 @@ const ResetPassword = () => {
                   placeholder="FullName@domain.com"
                   required=""
                   onChange={(e) => setEmail(e.target.value)}
+                  
                 />
               </div>
               <div>
