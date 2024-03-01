@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import {toast} from 'react-hot-toast'
 
 const ResetPassword = () => {
   const navigate = useNavigate();
@@ -28,14 +29,14 @@ const ResetPassword = () => {
         )
         .then((response) => {
           console.log(response);
-          alert("Your password has been changed");
+          toast.success("Your password has been changed");
           navigate("/Login");
         })
         .catch((error) => {
           console.log(error);
         });
     } else {
-      alert('passwords did not match');
+      toast.error('passwords did not match');
       navigate('/HomePage');
     }
   };

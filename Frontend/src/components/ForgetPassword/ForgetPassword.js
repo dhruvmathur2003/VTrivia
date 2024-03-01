@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import {toast} from 'react-hot-toast'
 
 const ForgetPassword = () => {
   const navigate = useNavigate();
@@ -22,7 +23,7 @@ const ForgetPassword = () => {
       )
       .then((response) => {
         console.log(response);
-        alert("A mail has been to your email id");
+        toast.success("A mail has been to your email id");
         setTimeout(() => {
           
         }, 2000);
