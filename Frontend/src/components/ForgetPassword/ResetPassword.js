@@ -64,6 +64,7 @@ const ResetPassword = () => {
                   placeholder="FullName@domain.com"
                   required=""
                   onChange={(e) => setEmail(e.target.value)}
+                  
                 />
               </div>
               <div>
