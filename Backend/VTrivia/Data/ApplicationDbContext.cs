@@ -11,6 +11,7 @@ namespace VTrivia.Data
         {
 
         }
+        DbSet<Quiz> Quizs { get; set; }
         DbSet<AppUser> AppUsers {  get; set; }
         DbSet<Group> Groups { get; set; }
 
