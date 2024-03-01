@@ -6,7 +6,7 @@ import ResetPassword from './components/ForgetPassword/ResetPassword'
 import HomePage from "./components/HomePage/HomePage";
 import ProfileDashboard from './components/ProfileDashboard/ProfileDashboard'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import {Toaster} from 'react-hot-toast';
+import {Toaster} from 'react-hot-toast';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
           <Route path="Dashboard" element={<ProfileDashboard/>}/>
         </Routes>
       </BrowserRouter>
+      <Toaster/>
     </>
   );
 }
