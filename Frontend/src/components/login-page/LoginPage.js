@@ -12,20 +12,24 @@ const LoginPage = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .post("https://localhost:7089/login", {
-        email,
-        password,
-        twoFactorCode: "string",
-        twoFactorRecoveryCode: "string"
-      }, {
-        headers: {
-            'Content-Type': 'application/json'
+      .post(
+        "https://localhost:7089/login",
+        {
+          email,
+          password,
+          twoFactorCode: "string",
+          twoFactorRecoveryCode: "string",
+        },
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
         }
-    })
+      )
       .then((response) => {
         console.log("DONE");
         console.log(response);
-        navigate('/Dashboard');
+        navigate("/Dashboard");
       })
       .catch((error) => {
         console.log(error);
@@ -34,7 +38,7 @@ const LoginPage = () => {
   return (
     <>
       <Navbar />
-      <section className="bg-sky-300">
+      <section className="bg-sky-300 h-screen w-screen">
         <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
           <a
             href="/"
