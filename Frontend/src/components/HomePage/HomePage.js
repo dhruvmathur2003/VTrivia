@@ -27,6 +27,8 @@ const HomePage = () => {
                 Get ready to be a Trivian!
               </p>
             </div>
+
+            
           </a>
 
           <div class="w-full p-2 text-center bg-white border border-gray-200 rounded-lg shadow sm:p-5 dark:bg-sky-400 dark:border-gray-700">
