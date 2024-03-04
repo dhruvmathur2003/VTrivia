@@ -1,6 +1,7 @@
 import React from "react";
 import HomeNav from "./HomeNav";
 import logo from "../../assets/QuizLogo.png";
+import FriendCard from "./FriendCard";
 
 const HomePage = () => {
   return (
@@ -40,6 +41,36 @@ const HomePage = () => {
             style={{ maxWidth: "100%", maxHeight: "100%" }}
           />
         </div>
+      </div>
+      <div className="grid grid-cols-4">
+        <FriendCard
+          friendName="Deepti"
+          Role="Business Analyst"
+          Github="abc"
+          Linkedin="abc"
+          className="col-span-1"
+        />
+        <FriendCard
+          friendName="Aryan"
+          Role="Frontend Engineer"
+          Github="https://github.com/Aryan-Sanghi-008"
+          Linkedin="https://www.linkedin.com/in/aryansanghi008/"
+          className="col-span-1"
+        />
+        <FriendCard
+          friendName="Dhruv Mathur"
+          Role="Backend Engineer (.NET)"
+          Github="abc"
+          Linkedin="abc"
+          className="col-span-1"
+        />
+        <FriendCard
+          friendName="Amit Raheja"
+          Role="Backend Engineer (.NET)"
+          Github="abc"
+          Linkedin="abc"
+          className="col-span-1"
+        />
       </div>
     </>
   );
