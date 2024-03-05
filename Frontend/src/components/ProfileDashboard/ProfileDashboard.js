@@ -1,15 +1,20 @@
 import React from "react";
-import HomeNav from "../HomePage/HomeNav";
+import ProfileNavbar from "./ProfileNavbar.js";
+import ProfileCard from "./ProfileCard.js";
+import axios from "axios";
 
-const HomePage = () =>
-{
-    return(
-        <>
-        <HomeNav/>
-        </>
-    );
+const ProfileDashboard = (props) => {
+  return (
+    <>
+      <ProfileNavbar />
+      <div className="flex">
+        <ProfileCard />
+      </div>
+      <div className="flex">
+        <ProfileCard />
+      </div>
+    </>
+  );
 };
 
-
-
-export default HomePage;
+export default ProfileDashboard;
