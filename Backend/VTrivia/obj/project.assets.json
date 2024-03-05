@@ -5287,11 +5287,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amitr\\OneDrive\\Desktop\\MVC\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
+      "projectUniqueName": "C:\\Users\\amitr\\OneDrive\\Desktop\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
       "projectName": "VTrivia",
-      "projectPath": "C:\\Users\\amitr\\OneDrive\\Desktop\\MVC\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
+      "projectPath": "C:\\Users\\amitr\\OneDrive\\Desktop\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
       "packagesPath": "C:\\Users\\amitr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amitr\\OneDrive\\Desktop\\MVC\\VTrivia\\Backend\\VTrivia\\obj\\",
+      "outputPath": "C:\\Users\\amitr\\OneDrive\\Desktop\\VTrivia\\Backend\\VTrivia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\amitr\\AppData\\Roaming\\NuGet\\NuGet.Config",

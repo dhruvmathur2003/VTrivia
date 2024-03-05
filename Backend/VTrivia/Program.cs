@@ -43,6 +43,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 builder.Services.AddAuthorization();
 builder.Services.AddScoped<IGroupRepository, GroupRepository>();
 builder.Services.AddScoped<IAppUserRepository, AppUserRepository>();
+builder.Services.AddScoped<IQuizRepository, QuizRepository>();
+builder.Services.AddScoped<IQueRepository, QueRepository>();
 builder.Services.AddIdentityApiEndpoints<IdentityUser>().AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

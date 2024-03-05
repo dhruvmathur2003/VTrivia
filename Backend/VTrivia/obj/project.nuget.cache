@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "78VCUdAClzkIY+DUzorP464CSQk2jPjsAtLZz8a8EcBD31mTaEuBg5jswEJ0e9znUKIwLWjZjasCb4fi5jeQaQ==",
+  "dgSpecHash": "bKgMDTbNvOTbUOZd0m4D28lLfiQ+xB/TImbplAO8hqNcEnUl0GAvi3tGCUx00MGpR59WMlKdx0QfUBYYkPQyXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\amitr\\OneDrive\\Desktop\\MVC\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
+  "projectFilePath": "C:\\Users\\amitr\\OneDrive\\Desktop\\VTrivia\\Backend\\VTrivia\\VTrivia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\amitr\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\amitr\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

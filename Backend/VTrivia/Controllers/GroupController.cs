@@ -26,7 +26,6 @@ namespace VTrivia.Controllers
         [Authorize]
         public IActionResult Create(Group group)
         {
-
             var userId = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             group.AdminId = userId;
             group.TiemStamp = DateTime.Now;
