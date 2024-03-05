@@ -2,13 +2,13 @@ import React, {useState} from "react";
 import Navbar from "../Navbar/Navbar";
 import axios from "axios";
 import { useNavigate } from "react-router";
-
+ 
 const SignUpPage = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   //const [username, setUsername] = useState("");
-
+ 
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
@@ -109,5 +109,5 @@ const SignUpPage = () => {
     </>
   );
 };
-
+ 
 export default SignUpPage;

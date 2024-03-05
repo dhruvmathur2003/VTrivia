@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VTrivia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8c18aee0ab56b66318e2246843ddc7ebe2f09b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dbb49b748ea5dec356fe1ac9df007ca687fad1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("VTrivia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VTrivia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

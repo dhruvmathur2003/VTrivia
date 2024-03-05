@@ -14,5 +14,7 @@ namespace VTrivia.Model
         public TimeSpan timeWindow {  get; set; }
         [Required]
         public TimeSpan quizDuration { get; set; }
+
+        public List<Que>? Ques { get; set; }
     }
 }

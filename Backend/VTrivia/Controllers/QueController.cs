@@ -6,26 +6,27 @@ using VTrivia.Repository.IRepository;
 
 namespace VTrivia.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
-    public class QuizController : ControllerBase
+    [Authorize]
+    public class QueController : ControllerBase
     {
         private readonly IGroupRepository _groupRepository;
         private readonly IAppUserRepository _appUserRepository;
+        private readonly IQueRepository _queRepository;
+
         private readonly IHttpContextAccessor _httpContextAccessor;
-        private readonly IQuizRepository _quizRepository;
-        public QuizController(IGroupRepository groupRepository, IHttpContextAccessor httpContextAccessor, IAppUserRepository appUserRepository,IQuizRepository quizRepository)
+        public QueController(IGroupRepository groupRepository, IHttpContextAccessor httpContextAccessor, IAppUserRepository appUserRepository,IQueRepository queRepository)
         {
             _groupRepository = groupRepository;
             _httpContextAccessor = httpContextAccessor;
+            _queRepository = queRepository;
             _appUserRepository = appUserRepository;
-            _quizRepository = quizRepository;
         }
         [HttpPost]
-        [Authorize]
-        public IActionResult Create(Quiz quiz)
+        public IActionResult Create(Que que)
         {
-            _quizRepository.Add(quiz);
+            _queRepository.Add(que);
             return Ok();
         }
     }
