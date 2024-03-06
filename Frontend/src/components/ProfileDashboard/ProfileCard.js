@@ -9,11 +9,9 @@ const ProfileCard = (props) => {
         alt="group-icon"
         style={{ maxWidth: "100%", maxHeight: "100%" }}
       />
-      <div className="px-6 py-4">
+      <div className="bg-white px-6 py-4">
         <div className="font-bold text-xl mb-2">{props.title}</div>
-        <p className="text-gray-700 text-base">
-          {props.designation}
-        </p>
+        <p className="text-gray-700 text-base">{props.designation}</p>
       </div>
     </div>
   );
