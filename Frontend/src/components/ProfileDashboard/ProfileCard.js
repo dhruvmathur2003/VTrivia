@@ -11,6 +11,8 @@ const ProfileCard = (props) => {
       />
       <div className="bg-white px-6 py-4">
         <div className="font-bold text-xl mb-2">{props.title}</div>
+
+        
         <p className="text-gray-700 text-base">{props.designation}</p>
       </div>
     </div>
