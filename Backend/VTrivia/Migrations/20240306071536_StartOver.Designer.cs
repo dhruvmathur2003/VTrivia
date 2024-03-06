@@ -12,8 +12,8 @@ using VTrivia.Data;
 namespace VTrivia.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240301091349_addedGroupsToAppUser")]
-    partial class addedGroupsToAppUser
+    [Migration("20240306071536_StartOver")]
+    partial class StartOver
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -274,6 +274,61 @@ namespace VTrivia.Migrations
                     b.ToTable("Groups");
                 });
 
+            modelBuilder.Entity("VTrivia.Model.Que", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("QuizId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Statement")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("answer")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("options")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("QuizId");
+
+                    b.ToTable("Ques");
+                });
+
+            modelBuilder.Entity("VTrivia.Model.Quiz", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("groupId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
+                    b.Property<int>("quizDuration")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("startTimeStamp")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("timeWindow")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Quizs");
+                });
+
             modelBuilder.Entity("VTrivia.Model.AppUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
@@ -348,6 +403,18 @@ namespace VTrivia.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("VTrivia.Model.Que", b =>
+                {
+                    b.HasOne("VTrivia.Model.Quiz", null)
+                        .WithMany("Ques")
+                        .HasForeignKey("QuizId");
+                });
+
+            modelBuilder.Entity("VTrivia.Model.Quiz", b =>
+                {
+                    b.Navigation("Ques");
                 });
 #pragma warning restore 612, 618
         }

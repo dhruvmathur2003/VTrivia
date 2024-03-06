@@ -15,7 +15,7 @@ namespace VTrivia.Repository
         }
         public Group Add(Group entity)
         {
-            var sql = "INSERT INTO Groups (Name, Description, AdminId) VALUES(@Name, @Description, @AdminId);"
+            var sql = "INSERT INTO Groups (Name, Description, AdminId,TiemStamp) VALUES(@Name, @Description, @AdminId,@TiemStamp);"
               + "SELECT CAST(SCOPE_IDENTITY() as int);";
             var id = db.Query<int>(sql, entity).Single();
             entity.Id = id;

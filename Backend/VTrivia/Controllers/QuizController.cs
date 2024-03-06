@@ -22,7 +22,7 @@ namespace VTrivia.Controllers
             _quizRepository = quizRepository;
         }
         [HttpPost]
-        [Authorize]
+        //[Authorize]
         public IActionResult Create(Quiz quiz)
         {
             _quizRepository.Add(quiz);
