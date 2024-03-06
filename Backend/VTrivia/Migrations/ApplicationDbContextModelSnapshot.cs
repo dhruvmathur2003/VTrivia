@@ -312,14 +312,14 @@ namespace VTrivia.Migrations
                         .IsRequired()
                         .HasColumnType("int");
 
-                    b.Property<TimeSpan>("quizDuration")
-                        .HasColumnType("time");
+                    b.Property<int>("quizDuration")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("startTimeStamp")
                         .HasColumnType("datetime2");
 
-                    b.Property<TimeSpan>("timeWindow")
-                        .HasColumnType("time");
+                    b.Property<int>("timeWindow")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

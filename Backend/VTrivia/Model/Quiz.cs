@@ -11,9 +11,9 @@ namespace VTrivia.Model
         [Required]
         public DateTime startTimeStamp { get; set; }
         [Required]
-        public TimeSpan timeWindow {  get; set; }
+        public int timeWindow {  get; set; }
         [Required]
-        public TimeSpan quizDuration { get; set; }
+        public int quizDuration { get; set; }
 
         public List<Que>? Ques { get; set; }
     }
